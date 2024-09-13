@@ -53,7 +53,6 @@ class Client(discord.Client):
 
                         if departure_iata == user_iata and not flight_info.get('flight',{}).get('codeshared',{}) and flight_info.get('flight_date') == today:
                         
-                            flight_date = flight_info.get('flight_date', 'N/A')
                             flight_status = flight_info.get('flight_status', 'N/A')
                             flight_airline = flight_info.get('flight', {}).get('name', 'N/A')
                             departure_iata = flight_info.get('departure', {}).get('iata', 'N/A')
@@ -63,7 +62,6 @@ class Client(discord.Client):
                             scheduled_departure_time = flight_info.get('departure', {}).get('scheduled', 'N/A')
                             scheduled_arrival_time = flight_info.get('arrival', {}).get('scheduled', 'N/A')
                             flight_number = flight_info.get('flight', {}).get('iata', 'N/A')
-                            aircraft = flight_info.get('aircraft', {}).get('iata', 'N/A')
 
                             #Time Processing
                             scheduled_arrival_time = datetime.fromisoformat(scheduled_arrival_time)
@@ -73,13 +71,12 @@ class Client(discord.Client):
                             scheduled_departure_time = scheduled_departure_time.strftime('%H:%M')
 
                             await message.channel.send(f"Departure from {departure_airport} ({departure_iata}) for today:")
+                            await message.channel.send(f"Airline: {flight_airline}")
                             await message.channel.send(f"Flight Number: {flight_number}")
                             await message.channel.send(f"Departure Time: {scheduled_departure_time}")
                             await message.channel.send(f"Flight Status: {flight_status}")
-                            await message.channel.send(f"Airline: {flight_airline}")
-                            await message.channel.send(f"Aircraft: {aircraft}")
-                            await message.channel.send(f"Arrival Airport: {arrival_airport} ({arrival_iata})")
                             await message.channel.send(f"Scheduled arrival time: {scheduled_arrival_time}")
+                            await message.channel.send(f"Arrival Airport: {arrival_airport} ({arrival_iata})")
                             await message.channel.send('-' * 40) 
 
                 # Handling Arrivals and extracting necessary data
@@ -93,7 +90,6 @@ class Client(discord.Client):
 
                             if arrival_iata == user_iata and not flight_info.get('flight',{}).get('codeshared',{}) and flight_info.get('flight_date') == today:
                             
-                                flight_date = flight_info.get('flight_date', 'N/A')
                                 flight_status = flight_info.get('flight_status', 'N/A')
                                 flight_airline = flight_info.get('airline', {}).get('name', 'N/A')
                                 departure_iata = flight_info.get('departure', {}).get('iata', 'N/A')
@@ -103,7 +99,6 @@ class Client(discord.Client):
                                 scheduled_departure_time = flight_info.get('departure', {}).get('scheduled', 'N/A')
                                 scheduled_arrival_time = flight_info.get('arrival', {}).get('scheduled', 'N/A')
                                 flight_number = flight_info.get('flight', {}).get('iata', 'N/A')
-                                aircraft = flight_info.get('aircraft', {}).get('iata', 'N/A')
 
                                 #Time Processing
                                 scheduled_arrival_time = datetime.fromisoformat(scheduled_arrival_time)
@@ -113,13 +108,12 @@ class Client(discord.Client):
                                 scheduled_departure_time = scheduled_departure_time.strftime('%H:%M')
 
                                 await message.channel.send(f"Arrival to {arrival_airport} ({arrival_iata}) for today:")
+                                await message.channel.send(f"Airline: {flight_airline}")
                                 await message.channel.send(f"Flight Number: {flight_number}")
-                                await message.channel.send(f"Departure Airport: {departure_airport} ({departure_iata})")
                                 await message.channel.send(f"Scheduled departure time: {scheduled_departure_time}")
+                                await message.channel.send(f"Departure Airport: {departure_airport} ({departure_iata})")
                                 await message.channel.send(f"Flight Status: {flight_status}")
                                 await message.channel.send(f"Arrival Time: {scheduled_arrival_time}")
-                                await message.channel.send(f"Airline: {flight_airline}")
-                                await message.channel.send(f"Aircraft: {aircraft}")
                                 await message.channel.send('-' * 40) 
 
                 else:
