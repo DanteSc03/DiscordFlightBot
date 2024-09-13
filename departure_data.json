@@ -1,0 +1,1834 @@
+{
+    "pagination": {
+        "limit": 100,
+        "offset": 0,
+        "count": 35,
+        "total": 35
+    },
+    "data": [
+        {
+            "flight_date": "2024-09-13",
+            "flight_status": "scheduled",
+            "departure": {
+                "airport": "Pamplona",
+                "timezone": "Europe/Madrid",
+                "iata": "PNA",
+                "icao": "LEPP",
+                "terminal": "T1",
+                "gate": "1-2",
+                "delay": 12,
+                "scheduled": "2024-09-13T13:05:00+00:00",
+                "estimated": "2024-09-13T13:05:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "arrival": {
+                "airport": "Gran Canaria",
+                "timezone": "Atlantic/Canary",
+                "iata": "LPA",
+                "icao": "GCLP",
+                "terminal": null,
+                "gate": null,
+                "baggage": "15",
+                "delay": null,
+                "scheduled": "2024-09-13T15:15:00+00:00",
+                "estimated": "2024-09-13T15:15:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "Binter Canarias",
+                "iata": "NT",
+                "icao": "IBB"
+            },
+            "flight": {
+                "number": "5423",
+                "iata": "NT5423",
+                "icao": "IBB5423",
+                "codeshared": null
+            },
+            "aircraft": null,
+            "live": null
+        },
+        {
+            "flight_date": "2024-09-13",
+            "flight_status": "scheduled",
+            "departure": {
+                "airport": "Pamplona",
+                "timezone": "Europe/Madrid",
+                "iata": "PNA",
+                "icao": "LEPP",
+                "terminal": "T1",
+                "gate": "2",
+                "delay": 5,
+                "scheduled": "2024-09-13T13:55:00+00:00",
+                "estimated": "2024-09-13T13:55:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "arrival": {
+                "airport": "Barajas",
+                "timezone": "Europe/Madrid",
+                "iata": "MAD",
+                "icao": "LEMD",
+                "terminal": "4",
+                "gate": null,
+                "baggage": "19",
+                "delay": null,
+                "scheduled": "2024-09-13T15:00:00+00:00",
+                "estimated": "2024-09-13T15:00:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "Iberia",
+                "iata": "IB",
+                "icao": "IBE"
+            },
+            "flight": {
+                "number": "8847",
+                "iata": "IB8847",
+                "icao": "IBE8847",
+                "codeshared": null
+            },
+            "aircraft": null,
+            "live": null
+        },
+        {
+            "flight_date": "2024-09-13",
+            "flight_status": "landed",
+            "departure": {
+                "airport": "Pamplona",
+                "timezone": "Europe/Madrid",
+                "iata": "PNA",
+                "icao": "LEPP",
+                "terminal": "T1",
+                "gate": "2",
+                "delay": 15,
+                "scheduled": "2024-09-13T09:30:00+00:00",
+                "estimated": "2024-09-13T09:30:00+00:00",
+                "actual": "2024-09-13T09:44:00+00:00",
+                "estimated_runway": "2024-09-13T09:44:00+00:00",
+                "actual_runway": "2024-09-13T09:44:00+00:00"
+            },
+            "arrival": {
+                "airport": "Barajas",
+                "timezone": "Europe/Madrid",
+                "iata": "MAD",
+                "icao": "LEMD",
+                "terminal": "4",
+                "gate": null,
+                "baggage": "19",
+                "delay": null,
+                "scheduled": "2024-09-13T10:40:00+00:00",
+                "estimated": "2024-09-13T10:40:00+00:00",
+                "actual": "2024-09-13T10:24:00+00:00",
+                "estimated_runway": "2024-09-13T10:24:00+00:00",
+                "actual_runway": "2024-09-13T10:24:00+00:00"
+            },
+            "airline": {
+                "name": "Iberia",
+                "iata": "IB",
+                "icao": "IBE"
+            },
+            "flight": {
+                "number": "8845",
+                "iata": "IB8845",
+                "icao": "IBE8845",
+                "codeshared": null
+            },
+            "aircraft": {
+                "registration": "EC-MVZ",
+                "iata": "CRJX",
+                "icao": "CRJX",
+                "icao24": "34604B"
+            },
+            "live": null
+        },
+        {
+            "flight_date": "2024-09-13",
+            "flight_status": "active",
+            "departure": {
+                "airport": "Pamplona",
+                "timezone": "Europe/Madrid",
+                "iata": "PNA",
+                "icao": "LEPP",
+                "terminal": "T1",
+                "gate": "2",
+                "delay": 15,
+                "scheduled": "2024-09-13T09:30:00+00:00",
+                "estimated": "2024-09-13T09:30:00+00:00",
+                "actual": "2024-09-13T09:44:00+00:00",
+                "estimated_runway": "2024-09-13T09:44:00+00:00",
+                "actual_runway": "2024-09-13T09:44:00+00:00"
+            },
+            "arrival": {
+                "airport": "Barajas",
+                "timezone": "Europe/Madrid",
+                "iata": "MAD",
+                "icao": "LEMD",
+                "terminal": "4",
+                "gate": null,
+                "baggage": "19",
+                "delay": null,
+                "scheduled": "2024-09-13T10:40:00+00:00",
+                "estimated": "2024-09-13T10:40:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "Jet Linx Aviation",
+                "iata": "JL",
+                "icao": "JTL"
+            },
+            "flight": {
+                "number": "9438",
+                "iata": "JL9438",
+                "icao": "JTL9438",
+                "codeshared": {
+                    "airline_name": "iberia",
+                    "airline_iata": "ib",
+                    "airline_icao": "ibe",
+                    "flight_number": "8845",
+                    "flight_iata": "ib8845",
+                    "flight_icao": "ibe8845"
+                }
+            },
+            "aircraft": null,
+            "live": null
+        },
+        {
+            "flight_date": "2024-09-13",
+            "flight_status": "active",
+            "departure": {
+                "airport": "Pamplona",
+                "timezone": "Europe/Madrid",
+                "iata": "PNA",
+                "icao": "LEPP",
+                "terminal": "T1",
+                "gate": "2",
+                "delay": 15,
+                "scheduled": "2024-09-13T09:30:00+00:00",
+                "estimated": "2024-09-13T09:30:00+00:00",
+                "actual": "2024-09-13T09:44:00+00:00",
+                "estimated_runway": "2024-09-13T09:44:00+00:00",
+                "actual_runway": "2024-09-13T09:44:00+00:00"
+            },
+            "arrival": {
+                "airport": "Barajas",
+                "timezone": "Europe/Madrid",
+                "iata": "MAD",
+                "icao": "LEMD",
+                "terminal": "4",
+                "gate": null,
+                "baggage": "19",
+                "delay": null,
+                "scheduled": "2024-09-13T10:40:00+00:00",
+                "estimated": "2024-09-13T10:40:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "SA AVIANCA",
+                "iata": "AV",
+                "icao": "AVA"
+            },
+            "flight": {
+                "number": "6118",
+                "iata": "AV6118",
+                "icao": "AVA6118",
+                "codeshared": {
+                    "airline_name": "iberia",
+                    "airline_iata": "ib",
+                    "airline_icao": "ibe",
+                    "flight_number": "8845",
+                    "flight_iata": "ib8845",
+                    "flight_icao": "ibe8845"
+                }
+            },
+            "aircraft": null,
+            "live": null
+        },
+        {
+            "flight_date": "2024-09-13",
+            "flight_status": "active",
+            "departure": {
+                "airport": "Pamplona",
+                "timezone": "Europe/Madrid",
+                "iata": "PNA",
+                "icao": "LEPP",
+                "terminal": "T1",
+                "gate": "2",
+                "delay": 15,
+                "scheduled": "2024-09-13T09:30:00+00:00",
+                "estimated": "2024-09-13T09:30:00+00:00",
+                "actual": "2024-09-13T09:44:00+00:00",
+                "estimated_runway": "2024-09-13T09:44:00+00:00",
+                "actual_runway": "2024-09-13T09:44:00+00:00"
+            },
+            "arrival": {
+                "airport": "Barajas",
+                "timezone": "Europe/Madrid",
+                "iata": "MAD",
+                "icao": "LEMD",
+                "terminal": "4",
+                "gate": null,
+                "baggage": "19",
+                "delay": null,
+                "scheduled": "2024-09-13T10:40:00+00:00",
+                "estimated": "2024-09-13T10:40:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "Qatar Airways",
+                "iata": "QR",
+                "icao": "QTR"
+            },
+            "flight": {
+                "number": "5382",
+                "iata": "QR5382",
+                "icao": "QTR5382",
+                "codeshared": {
+                    "airline_name": "iberia",
+                    "airline_iata": "ib",
+                    "airline_icao": "ibe",
+                    "flight_number": "8845",
+                    "flight_iata": "ib8845",
+                    "flight_icao": "ibe8845"
+                }
+            },
+            "aircraft": null,
+            "live": null
+        },
+        {
+            "flight_date": "2024-09-13",
+            "flight_status": "scheduled",
+            "departure": {
+                "airport": "Pamplona",
+                "timezone": "Europe/Madrid",
+                "iata": "PNA",
+                "icao": "LEPP",
+                "terminal": "T1",
+                "gate": "2",
+                "delay": 5,
+                "scheduled": "2024-09-13T13:55:00+00:00",
+                "estimated": "2024-09-13T13:55:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "arrival": {
+                "airport": "Barajas",
+                "timezone": "Europe/Madrid",
+                "iata": "MAD",
+                "icao": "LEMD",
+                "terminal": "4",
+                "gate": null,
+                "baggage": "19",
+                "delay": null,
+                "scheduled": "2024-09-13T15:00:00+00:00",
+                "estimated": "2024-09-13T15:00:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "SA AVIANCA",
+                "iata": "AV",
+                "icao": "AVA"
+            },
+            "flight": {
+                "number": "6021",
+                "iata": "AV6021",
+                "icao": "AVA6021",
+                "codeshared": {
+                    "airline_name": "iberia",
+                    "airline_iata": "ib",
+                    "airline_icao": "ibe",
+                    "flight_number": "8847",
+                    "flight_iata": "ib8847",
+                    "flight_icao": "ibe8847"
+                }
+            },
+            "aircraft": null,
+            "live": null
+        },
+        {
+            "flight_date": "2024-09-13",
+            "flight_status": "scheduled",
+            "departure": {
+                "airport": "Pamplona",
+                "timezone": "Europe/Madrid",
+                "iata": "PNA",
+                "icao": "LEPP",
+                "terminal": "T1",
+                "gate": "2",
+                "delay": 5,
+                "scheduled": "2024-09-13T13:55:00+00:00",
+                "estimated": "2024-09-13T13:55:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "arrival": {
+                "airport": "Barajas",
+                "timezone": "Europe/Madrid",
+                "iata": "MAD",
+                "icao": "LEMD",
+                "terminal": "4",
+                "gate": null,
+                "baggage": "19",
+                "delay": null,
+                "scheduled": "2024-09-13T15:00:00+00:00",
+                "estimated": "2024-09-13T15:00:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "Qatar Airways",
+                "iata": "QR",
+                "icao": "QTR"
+            },
+            "flight": {
+                "number": "6583",
+                "iata": "QR6583",
+                "icao": "QTR6583",
+                "codeshared": {
+                    "airline_name": "iberia",
+                    "airline_iata": "ib",
+                    "airline_icao": "ibe",
+                    "flight_number": "8847",
+                    "flight_iata": "ib8847",
+                    "flight_icao": "ibe8847"
+                }
+            },
+            "aircraft": null,
+            "live": null
+        },
+        {
+            "flight_date": "2024-09-13",
+            "flight_status": "scheduled",
+            "departure": {
+                "airport": "Pamplona",
+                "timezone": "Europe/Madrid",
+                "iata": "PNA",
+                "icao": "LEPP",
+                "terminal": "T1",
+                "gate": "2",
+                "delay": 5,
+                "scheduled": "2024-09-13T13:55:00+00:00",
+                "estimated": "2024-09-13T13:55:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "arrival": {
+                "airport": "Barajas",
+                "timezone": "Europe/Madrid",
+                "iata": "MAD",
+                "icao": "LEMD",
+                "terminal": "4",
+                "gate": null,
+                "baggage": "19",
+                "delay": null,
+                "scheduled": "2024-09-13T15:00:00+00:00",
+                "estimated": "2024-09-13T15:00:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "Royal Air Maroc",
+                "iata": "AT",
+                "icao": "RAM"
+            },
+            "flight": {
+                "number": "5391",
+                "iata": "AT5391",
+                "icao": "RAM5391",
+                "codeshared": {
+                    "airline_name": "iberia",
+                    "airline_iata": "ib",
+                    "airline_icao": "ibe",
+                    "flight_number": "8847",
+                    "flight_iata": "ib8847",
+                    "flight_icao": "ibe8847"
+                }
+            },
+            "aircraft": null,
+            "live": null
+        },
+        {
+            "flight_date": "2024-09-13",
+            "flight_status": "active",
+            "departure": {
+                "airport": "Pamplona",
+                "timezone": "Europe/Madrid",
+                "iata": "PNA",
+                "icao": "LEPP",
+                "terminal": "T1",
+                "gate": "2",
+                "delay": 15,
+                "scheduled": "2024-09-13T09:30:00+00:00",
+                "estimated": "2024-09-13T09:30:00+00:00",
+                "actual": "2024-09-13T09:44:00+00:00",
+                "estimated_runway": "2024-09-13T09:44:00+00:00",
+                "actual_runway": "2024-09-13T09:44:00+00:00"
+            },
+            "arrival": {
+                "airport": "Barajas",
+                "timezone": "Europe/Madrid",
+                "iata": "MAD",
+                "icao": "LEMD",
+                "terminal": "4",
+                "gate": null,
+                "baggage": "19",
+                "delay": null,
+                "scheduled": "2024-09-13T10:40:00+00:00",
+                "estimated": "2024-09-13T10:40:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "Vueling",
+                "iata": "VY",
+                "icao": "VLG"
+            },
+            "flight": {
+                "number": "5360",
+                "iata": "VY5360",
+                "icao": "VLG5360",
+                "codeshared": {
+                    "airline_name": "iberia",
+                    "airline_iata": "ib",
+                    "airline_icao": "ibe",
+                    "flight_number": "8845",
+                    "flight_iata": "ib8845",
+                    "flight_icao": "ibe8845"
+                }
+            },
+            "aircraft": null,
+            "live": null
+        },
+        {
+            "flight_date": "2024-09-13",
+            "flight_status": "active",
+            "departure": {
+                "airport": "Pamplona",
+                "timezone": "Europe/Madrid",
+                "iata": "PNA",
+                "icao": "LEPP",
+                "terminal": "T1",
+                "gate": "2",
+                "delay": 15,
+                "scheduled": "2024-09-13T09:30:00+00:00",
+                "estimated": "2024-09-13T09:30:00+00:00",
+                "actual": "2024-09-13T09:44:00+00:00",
+                "estimated_runway": "2024-09-13T09:44:00+00:00",
+                "actual_runway": "2024-09-13T09:44:00+00:00"
+            },
+            "arrival": {
+                "airport": "Barajas",
+                "timezone": "Europe/Madrid",
+                "iata": "MAD",
+                "icao": "LEMD",
+                "terminal": "4",
+                "gate": null,
+                "baggage": "19",
+                "delay": null,
+                "scheduled": "2024-09-13T10:40:00+00:00",
+                "estimated": "2024-09-13T10:40:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "Royal Air Maroc",
+                "iata": "AT",
+                "icao": "RAM"
+            },
+            "flight": {
+                "number": "5390",
+                "iata": "AT5390",
+                "icao": "RAM5390",
+                "codeshared": {
+                    "airline_name": "iberia",
+                    "airline_iata": "ib",
+                    "airline_icao": "ibe",
+                    "flight_number": "8845",
+                    "flight_iata": "ib8845",
+                    "flight_icao": "ibe8845"
+                }
+            },
+            "aircraft": null,
+            "live": null
+        },
+        {
+            "flight_date": "2024-09-13",
+            "flight_status": "active",
+            "departure": {
+                "airport": "Pamplona",
+                "timezone": "Europe/Madrid",
+                "iata": "PNA",
+                "icao": "LEPP",
+                "terminal": "T1",
+                "gate": "2",
+                "delay": 15,
+                "scheduled": "2024-09-13T09:30:00+00:00",
+                "estimated": "2024-09-13T09:30:00+00:00",
+                "actual": "2024-09-13T09:44:00+00:00",
+                "estimated_runway": "2024-09-13T09:44:00+00:00",
+                "actual_runway": "2024-09-13T09:44:00+00:00"
+            },
+            "arrival": {
+                "airport": "Barajas",
+                "timezone": "Europe/Madrid",
+                "iata": "MAD",
+                "icao": "LEMD",
+                "terminal": "4",
+                "gate": null,
+                "baggage": "19",
+                "delay": null,
+                "scheduled": "2024-09-13T10:40:00+00:00",
+                "estimated": "2024-09-13T10:40:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "American Airlines",
+                "iata": "AA",
+                "icao": "AAL"
+            },
+            "flight": {
+                "number": "8826",
+                "iata": "AA8826",
+                "icao": "AAL8826",
+                "codeshared": {
+                    "airline_name": "iberia",
+                    "airline_iata": "ib",
+                    "airline_icao": "ibe",
+                    "flight_number": "8845",
+                    "flight_iata": "ib8845",
+                    "flight_icao": "ibe8845"
+                }
+            },
+            "aircraft": null,
+            "live": null
+        },
+        {
+            "flight_date": "2024-09-13",
+            "flight_status": "scheduled",
+            "departure": {
+                "airport": "Pamplona",
+                "timezone": "Europe/Madrid",
+                "iata": "PNA",
+                "icao": "LEPP",
+                "terminal": "T1",
+                "gate": "2",
+                "delay": 5,
+                "scheduled": "2024-09-13T13:55:00+00:00",
+                "estimated": "2024-09-13T13:55:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "arrival": {
+                "airport": "Barajas",
+                "timezone": "Europe/Madrid",
+                "iata": "MAD",
+                "icao": "LEMD",
+                "terminal": "4",
+                "gate": null,
+                "baggage": "19",
+                "delay": null,
+                "scheduled": "2024-09-13T15:00:00+00:00",
+                "estimated": "2024-09-13T15:00:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "Vueling",
+                "iata": "VY",
+                "icao": "VLG"
+            },
+            "flight": {
+                "number": "5567",
+                "iata": "VY5567",
+                "icao": "VLG5567",
+                "codeshared": {
+                    "airline_name": "iberia",
+                    "airline_iata": "ib",
+                    "airline_icao": "ibe",
+                    "flight_number": "8847",
+                    "flight_iata": "ib8847",
+                    "flight_icao": "ibe8847"
+                }
+            },
+            "aircraft": null,
+            "live": null
+        },
+        {
+            "flight_date": "2024-09-12",
+            "flight_status": "landed",
+            "departure": {
+                "airport": "Pamplona",
+                "timezone": "Europe/Madrid",
+                "iata": "PNA",
+                "icao": "LEPP",
+                "terminal": "T1",
+                "gate": "2",
+                "delay": 5,
+                "scheduled": "2024-09-12T09:30:00+00:00",
+                "estimated": "2024-09-12T09:30:00+00:00",
+                "actual": "2024-09-12T09:35:00+00:00",
+                "estimated_runway": "2024-09-12T09:35:00+00:00",
+                "actual_runway": "2024-09-12T09:35:00+00:00"
+            },
+            "arrival": {
+                "airport": "Barajas",
+                "timezone": "Europe/Madrid",
+                "iata": "MAD",
+                "icao": "LEMD",
+                "terminal": "4",
+                "gate": null,
+                "baggage": "19",
+                "delay": null,
+                "scheduled": "2024-09-12T10:40:00+00:00",
+                "estimated": "2024-09-12T10:40:00+00:00",
+                "actual": "2024-09-12T10:12:00+00:00",
+                "estimated_runway": "2024-09-12T10:12:00+00:00",
+                "actual_runway": "2024-09-12T10:12:00+00:00"
+            },
+            "airline": {
+                "name": "Vueling",
+                "iata": "VY",
+                "icao": "VLG"
+            },
+            "flight": {
+                "number": "5360",
+                "iata": "VY5360",
+                "icao": "VLG5360",
+                "codeshared": {
+                    "airline_name": "iberia",
+                    "airline_iata": "ib",
+                    "airline_icao": "ibe",
+                    "flight_number": "8845",
+                    "flight_iata": "ib8845",
+                    "flight_icao": "ibe8845"
+                }
+            },
+            "aircraft": null,
+            "live": null
+        },
+        {
+            "flight_date": "2024-09-12",
+            "flight_status": "landed",
+            "departure": {
+                "airport": "Pamplona",
+                "timezone": "Europe/Madrid",
+                "iata": "PNA",
+                "icao": "LEPP",
+                "terminal": "T1",
+                "gate": "2",
+                "delay": 5,
+                "scheduled": "2024-09-12T21:55:00+00:00",
+                "estimated": "2024-09-12T21:55:00+00:00",
+                "actual": "2024-09-12T21:59:00+00:00",
+                "estimated_runway": "2024-09-12T21:59:00+00:00",
+                "actual_runway": "2024-09-12T21:59:00+00:00"
+            },
+            "arrival": {
+                "airport": "Barajas",
+                "timezone": "Europe/Madrid",
+                "iata": "MAD",
+                "icao": "LEMD",
+                "terminal": "4",
+                "gate": null,
+                "baggage": "19",
+                "delay": null,
+                "scheduled": "2024-09-12T23:00:00+00:00",
+                "estimated": "2024-09-12T23:00:00+00:00",
+                "actual": "2024-09-12T22:50:00+00:00",
+                "estimated_runway": "2024-09-12T22:50:00+00:00",
+                "actual_runway": "2024-09-12T22:50:00+00:00"
+            },
+            "airline": {
+                "name": "Qatar Airways",
+                "iata": "QR",
+                "icao": "QTR"
+            },
+            "flight": {
+                "number": "8086",
+                "iata": "QR8086",
+                "icao": "QTR8086",
+                "codeshared": {
+                    "airline_name": "iberia",
+                    "airline_iata": "ib",
+                    "airline_icao": "ibe",
+                    "flight_number": "8851",
+                    "flight_iata": "ib8851",
+                    "flight_icao": "ibe8851"
+                }
+            },
+            "aircraft": null,
+            "live": null
+        },
+        {
+            "flight_date": "2024-09-12",
+            "flight_status": "landed",
+            "departure": {
+                "airport": "Pamplona",
+                "timezone": "Europe/Madrid",
+                "iata": "PNA",
+                "icao": "LEPP",
+                "terminal": "T1",
+                "gate": "2",
+                "delay": 19,
+                "scheduled": "2024-09-12T13:55:00+00:00",
+                "estimated": "2024-09-12T13:55:00+00:00",
+                "actual": "2024-09-12T14:13:00+00:00",
+                "estimated_runway": "2024-09-12T14:13:00+00:00",
+                "actual_runway": "2024-09-12T14:13:00+00:00"
+            },
+            "arrival": {
+                "airport": "Barajas",
+                "timezone": "Europe/Madrid",
+                "iata": "MAD",
+                "icao": "LEMD",
+                "terminal": "4",
+                "gate": null,
+                "baggage": "19",
+                "delay": null,
+                "scheduled": "2024-09-12T15:00:00+00:00",
+                "estimated": "2024-09-12T15:00:00+00:00",
+                "actual": "2024-09-12T14:56:00+00:00",
+                "estimated_runway": "2024-09-12T14:56:00+00:00",
+                "actual_runway": "2024-09-12T14:56:00+00:00"
+            },
+            "airline": {
+                "name": "Qatar Airways",
+                "iata": "QR",
+                "icao": "QTR"
+            },
+            "flight": {
+                "number": "6583",
+                "iata": "QR6583",
+                "icao": "QTR6583",
+                "codeshared": {
+                    "airline_name": "iberia",
+                    "airline_iata": "ib",
+                    "airline_icao": "ibe",
+                    "flight_number": "8847",
+                    "flight_iata": "ib8847",
+                    "flight_icao": "ibe8847"
+                }
+            },
+            "aircraft": null,
+            "live": null
+        },
+        {
+            "flight_date": "2024-09-12",
+            "flight_status": "landed",
+            "departure": {
+                "airport": "Pamplona",
+                "timezone": "Europe/Madrid",
+                "iata": "PNA",
+                "icao": "LEPP",
+                "terminal": "T1",
+                "gate": "2",
+                "delay": 19,
+                "scheduled": "2024-09-12T13:55:00+00:00",
+                "estimated": "2024-09-12T13:55:00+00:00",
+                "actual": "2024-09-12T14:13:00+00:00",
+                "estimated_runway": "2024-09-12T14:13:00+00:00",
+                "actual_runway": "2024-09-12T14:13:00+00:00"
+            },
+            "arrival": {
+                "airport": "Barajas",
+                "timezone": "Europe/Madrid",
+                "iata": "MAD",
+                "icao": "LEMD",
+                "terminal": "4",
+                "gate": null,
+                "baggage": "19",
+                "delay": null,
+                "scheduled": "2024-09-12T15:00:00+00:00",
+                "estimated": "2024-09-12T15:00:00+00:00",
+                "actual": "2024-09-12T14:56:00+00:00",
+                "estimated_runway": "2024-09-12T14:56:00+00:00",
+                "actual_runway": "2024-09-12T14:56:00+00:00"
+            },
+            "airline": {
+                "name": "Vueling",
+                "iata": "VY",
+                "icao": "VLG"
+            },
+            "flight": {
+                "number": "5567",
+                "iata": "VY5567",
+                "icao": "VLG5567",
+                "codeshared": {
+                    "airline_name": "iberia",
+                    "airline_iata": "ib",
+                    "airline_icao": "ibe",
+                    "flight_number": "8847",
+                    "flight_iata": "ib8847",
+                    "flight_icao": "ibe8847"
+                }
+            },
+            "aircraft": null,
+            "live": null
+        },
+        {
+            "flight_date": "2024-09-12",
+            "flight_status": "landed",
+            "departure": {
+                "airport": "Pamplona",
+                "timezone": "Europe/Madrid",
+                "iata": "PNA",
+                "icao": "LEPP",
+                "terminal": "T1",
+                "gate": "2",
+                "delay": 5,
+                "scheduled": "2024-09-12T09:30:00+00:00",
+                "estimated": "2024-09-12T09:30:00+00:00",
+                "actual": "2024-09-12T09:35:00+00:00",
+                "estimated_runway": "2024-09-12T09:35:00+00:00",
+                "actual_runway": "2024-09-12T09:35:00+00:00"
+            },
+            "arrival": {
+                "airport": "Barajas",
+                "timezone": "Europe/Madrid",
+                "iata": "MAD",
+                "icao": "LEMD",
+                "terminal": "4",
+                "gate": null,
+                "baggage": "19",
+                "delay": null,
+                "scheduled": "2024-09-12T10:40:00+00:00",
+                "estimated": "2024-09-12T10:40:00+00:00",
+                "actual": "2024-09-12T10:12:00+00:00",
+                "estimated_runway": "2024-09-12T10:12:00+00:00",
+                "actual_runway": "2024-09-12T10:12:00+00:00"
+            },
+            "airline": {
+                "name": "Qatar Airways",
+                "iata": "QR",
+                "icao": "QTR"
+            },
+            "flight": {
+                "number": "5382",
+                "iata": "QR5382",
+                "icao": "QTR5382",
+                "codeshared": {
+                    "airline_name": "iberia",
+                    "airline_iata": "ib",
+                    "airline_icao": "ibe",
+                    "flight_number": "8845",
+                    "flight_iata": "ib8845",
+                    "flight_icao": "ibe8845"
+                }
+            },
+            "aircraft": null,
+            "live": null
+        },
+        {
+            "flight_date": "2024-09-12",
+            "flight_status": "landed",
+            "departure": {
+                "airport": "Pamplona",
+                "timezone": "Europe/Madrid",
+                "iata": "PNA",
+                "icao": "LEPP",
+                "terminal": null,
+                "gate": null,
+                "delay": 6,
+                "scheduled": "2024-09-12T13:40:00+00:00",
+                "estimated": "2024-09-12T13:40:00+00:00",
+                "actual": "2024-09-12T13:45:00+00:00",
+                "estimated_runway": "2024-09-12T13:45:00+00:00",
+                "actual_runway": "2024-09-12T13:45:00+00:00"
+            },
+            "arrival": {
+                "airport": "Ibiza",
+                "timezone": "Europe/Madrid",
+                "iata": "IBZ",
+                "icao": "LEIB",
+                "terminal": "TIBZ",
+                "gate": null,
+                "baggage": null,
+                "delay": null,
+                "scheduled": "2024-09-12T14:50:00+00:00",
+                "estimated": "2024-09-12T14:50:00+00:00",
+                "actual": "2024-09-12T14:43:00+00:00",
+                "estimated_runway": "2024-09-12T14:43:00+00:00",
+                "actual_runway": "2024-09-12T14:43:00+00:00"
+            },
+            "airline": {
+                "name": "VistaJet",
+                "iata": null,
+                "icao": "VJT"
+            },
+            "flight": {
+                "number": "473",
+                "iata": null,
+                "icao": "VJT473",
+                "codeshared": null
+            },
+            "aircraft": null,
+            "live": null
+        },
+        {
+            "flight_date": "2024-09-12",
+            "flight_status": "landed",
+            "departure": {
+                "airport": "Pamplona",
+                "timezone": "Europe/Madrid",
+                "iata": "PNA",
+                "icao": "LEPP",
+                "terminal": "T1",
+                "gate": "2",
+                "delay": 5,
+                "scheduled": "2024-09-12T09:30:00+00:00",
+                "estimated": "2024-09-12T09:30:00+00:00",
+                "actual": "2024-09-12T09:35:00+00:00",
+                "estimated_runway": "2024-09-12T09:35:00+00:00",
+                "actual_runway": "2024-09-12T09:35:00+00:00"
+            },
+            "arrival": {
+                "airport": "Barajas",
+                "timezone": "Europe/Madrid",
+                "iata": "MAD",
+                "icao": "LEMD",
+                "terminal": "4",
+                "gate": null,
+                "baggage": "19",
+                "delay": null,
+                "scheduled": "2024-09-12T10:40:00+00:00",
+                "estimated": "2024-09-12T10:40:00+00:00",
+                "actual": "2024-09-12T10:12:00+00:00",
+                "estimated_runway": "2024-09-12T10:12:00+00:00",
+                "actual_runway": "2024-09-12T10:12:00+00:00"
+            },
+            "airline": {
+                "name": "Jet Linx Aviation",
+                "iata": "JL",
+                "icao": "JTL"
+            },
+            "flight": {
+                "number": "9438",
+                "iata": "JL9438",
+                "icao": "JTL9438",
+                "codeshared": {
+                    "airline_name": "iberia",
+                    "airline_iata": "ib",
+                    "airline_icao": "ibe",
+                    "flight_number": "8845",
+                    "flight_iata": "ib8845",
+                    "flight_icao": "ibe8845"
+                }
+            },
+            "aircraft": null,
+            "live": null
+        },
+        {
+            "flight_date": "2024-09-12",
+            "flight_status": "landed",
+            "departure": {
+                "airport": "Pamplona",
+                "timezone": "Europe/Madrid",
+                "iata": "PNA",
+                "icao": "LEPP",
+                "terminal": "T1",
+                "gate": "2",
+                "delay": 5,
+                "scheduled": "2024-09-12T21:55:00+00:00",
+                "estimated": "2024-09-12T21:55:00+00:00",
+                "actual": "2024-09-12T21:59:00+00:00",
+                "estimated_runway": "2024-09-12T21:59:00+00:00",
+                "actual_runway": "2024-09-12T21:59:00+00:00"
+            },
+            "arrival": {
+                "airport": "Barajas",
+                "timezone": "Europe/Madrid",
+                "iata": "MAD",
+                "icao": "LEMD",
+                "terminal": "4",
+                "gate": null,
+                "baggage": "19",
+                "delay": null,
+                "scheduled": "2024-09-12T23:00:00+00:00",
+                "estimated": "2024-09-12T23:00:00+00:00",
+                "actual": "2024-09-12T22:50:00+00:00",
+                "estimated_runway": "2024-09-12T22:50:00+00:00",
+                "actual_runway": "2024-09-12T22:50:00+00:00"
+            },
+            "airline": {
+                "name": "Vueling",
+                "iata": "VY",
+                "icao": "VLG"
+            },
+            "flight": {
+                "number": "5571",
+                "iata": "VY5571",
+                "icao": "VLG5571",
+                "codeshared": {
+                    "airline_name": "iberia",
+                    "airline_iata": "ib",
+                    "airline_icao": "ibe",
+                    "flight_number": "8851",
+                    "flight_iata": "ib8851",
+                    "flight_icao": "ibe8851"
+                }
+            },
+            "aircraft": null,
+            "live": null
+        },
+        {
+            "flight_date": "2024-09-12",
+            "flight_status": "landed",
+            "departure": {
+                "airport": "Pamplona",
+                "timezone": "Europe/Madrid",
+                "iata": "PNA",
+                "icao": "LEPP",
+                "terminal": "T1",
+                "gate": "2",
+                "delay": 19,
+                "scheduled": "2024-09-12T06:45:00+00:00",
+                "estimated": "2024-09-12T06:45:00+00:00",
+                "actual": "2024-09-12T07:04:00+00:00",
+                "estimated_runway": "2024-09-12T07:04:00+00:00",
+                "actual_runway": "2024-09-12T07:04:00+00:00"
+            },
+            "arrival": {
+                "airport": "Barajas",
+                "timezone": "Europe/Madrid",
+                "iata": "MAD",
+                "icao": "LEMD",
+                "terminal": "4",
+                "gate": null,
+                "baggage": "19",
+                "delay": null,
+                "scheduled": "2024-09-12T07:50:00+00:00",
+                "estimated": "2024-09-12T07:50:00+00:00",
+                "actual": "2024-09-12T07:40:00+00:00",
+                "estimated_runway": "2024-09-12T07:40:00+00:00",
+                "actual_runway": "2024-09-12T07:40:00+00:00"
+            },
+            "airline": {
+                "name": "Iberia",
+                "iata": "IB",
+                "icao": "IBE"
+            },
+            "flight": {
+                "number": "8853",
+                "iata": "IB8853",
+                "icao": "IBE8853",
+                "codeshared": null
+            },
+            "aircraft": {
+                "registration": "EC-MTZ",
+                "iata": "CRJX",
+                "icao": "CRJX",
+                "icao24": "345687"
+            },
+            "live": null
+        },
+        {
+            "flight_date": "2024-09-12",
+            "flight_status": "landed",
+            "departure": {
+                "airport": "Pamplona",
+                "timezone": "Europe/Madrid",
+                "iata": "PNA",
+                "icao": "LEPP",
+                "terminal": "T1",
+                "gate": "2",
+                "delay": 5,
+                "scheduled": "2024-09-12T21:55:00+00:00",
+                "estimated": "2024-09-12T21:55:00+00:00",
+                "actual": "2024-09-12T21:59:00+00:00",
+                "estimated_runway": "2024-09-12T21:59:00+00:00",
+                "actual_runway": "2024-09-12T21:59:00+00:00"
+            },
+            "arrival": {
+                "airport": "Barajas",
+                "timezone": "Europe/Madrid",
+                "iata": "MAD",
+                "icao": "LEMD",
+                "terminal": "4",
+                "gate": null,
+                "baggage": "19",
+                "delay": null,
+                "scheduled": "2024-09-12T23:00:00+00:00",
+                "estimated": "2024-09-12T23:00:00+00:00",
+                "actual": "2024-09-12T22:50:00+00:00",
+                "estimated_runway": "2024-09-12T22:50:00+00:00",
+                "actual_runway": "2024-09-12T22:50:00+00:00"
+            },
+            "airline": {
+                "name": "Iberia",
+                "iata": "IB",
+                "icao": "IBE"
+            },
+            "flight": {
+                "number": "8851",
+                "iata": "IB8851",
+                "icao": "IBE8851",
+                "codeshared": null
+            },
+            "aircraft": {
+                "registration": "EC-MJQ",
+                "iata": "CRJX",
+                "icao": "CRJX",
+                "icao24": "3451DA"
+            },
+            "live": null
+        },
+        {
+            "flight_date": "2024-09-12",
+            "flight_status": "landed",
+            "departure": {
+                "airport": "Pamplona",
+                "timezone": "Europe/Madrid",
+                "iata": "PNA",
+                "icao": "LEPP",
+                "terminal": "T1",
+                "gate": "2",
+                "delay": 19,
+                "scheduled": "2024-09-12T13:55:00+00:00",
+                "estimated": "2024-09-12T13:55:00+00:00",
+                "actual": "2024-09-12T14:13:00+00:00",
+                "estimated_runway": "2024-09-12T14:13:00+00:00",
+                "actual_runway": "2024-09-12T14:13:00+00:00"
+            },
+            "arrival": {
+                "airport": "Barajas",
+                "timezone": "Europe/Madrid",
+                "iata": "MAD",
+                "icao": "LEMD",
+                "terminal": "4",
+                "gate": null,
+                "baggage": "19",
+                "delay": null,
+                "scheduled": "2024-09-12T15:00:00+00:00",
+                "estimated": "2024-09-12T15:00:00+00:00",
+                "actual": "2024-09-12T14:56:00+00:00",
+                "estimated_runway": "2024-09-12T14:56:00+00:00",
+                "actual_runway": "2024-09-12T14:56:00+00:00"
+            },
+            "airline": {
+                "name": "Iberia",
+                "iata": "IB",
+                "icao": "IBE"
+            },
+            "flight": {
+                "number": "8847",
+                "iata": "IB8847",
+                "icao": "IBE8847",
+                "codeshared": null
+            },
+            "aircraft": {
+                "registration": "EC-LJT",
+                "iata": "CRJX",
+                "icao": "CRJX",
+                "icao24": "343650"
+            },
+            "live": null
+        },
+        {
+            "flight_date": "2024-09-12",
+            "flight_status": "landed",
+            "departure": {
+                "airport": "Pamplona",
+                "timezone": "Europe/Madrid",
+                "iata": "PNA",
+                "icao": "LEPP",
+                "terminal": "T1",
+                "gate": "2",
+                "delay": 5,
+                "scheduled": "2024-09-12T09:30:00+00:00",
+                "estimated": "2024-09-12T09:30:00+00:00",
+                "actual": "2024-09-12T09:35:00+00:00",
+                "estimated_runway": "2024-09-12T09:35:00+00:00",
+                "actual_runway": "2024-09-12T09:35:00+00:00"
+            },
+            "arrival": {
+                "airport": "Barajas",
+                "timezone": "Europe/Madrid",
+                "iata": "MAD",
+                "icao": "LEMD",
+                "terminal": "4",
+                "gate": null,
+                "baggage": "19",
+                "delay": null,
+                "scheduled": "2024-09-12T10:40:00+00:00",
+                "estimated": "2024-09-12T10:40:00+00:00",
+                "actual": "2024-09-12T10:12:00+00:00",
+                "estimated_runway": "2024-09-12T10:12:00+00:00",
+                "actual_runway": "2024-09-12T10:12:00+00:00"
+            },
+            "airline": {
+                "name": "Iberia",
+                "iata": "IB",
+                "icao": "IBE"
+            },
+            "flight": {
+                "number": "8845",
+                "iata": "IB8845",
+                "icao": "IBE8845",
+                "codeshared": null
+            },
+            "aircraft": {
+                "registration": "EC-MVZ",
+                "iata": "CRJX",
+                "icao": "CRJX",
+                "icao24": "34604B"
+            },
+            "live": null
+        },
+        {
+            "flight_date": "2024-09-12",
+            "flight_status": "landed",
+            "departure": {
+                "airport": "Pamplona",
+                "timezone": "Europe/Madrid",
+                "iata": "PNA",
+                "icao": "LEPP",
+                "terminal": "T1",
+                "gate": "2",
+                "delay": 19,
+                "scheduled": "2024-09-12T06:45:00+00:00",
+                "estimated": "2024-09-12T06:45:00+00:00",
+                "actual": "2024-09-12T07:04:00+00:00",
+                "estimated_runway": "2024-09-12T07:04:00+00:00",
+                "actual_runway": "2024-09-12T07:04:00+00:00"
+            },
+            "arrival": {
+                "airport": "Barajas",
+                "timezone": "Europe/Madrid",
+                "iata": "MAD",
+                "icao": "LEMD",
+                "terminal": "4",
+                "gate": null,
+                "baggage": "19",
+                "delay": null,
+                "scheduled": "2024-09-12T07:50:00+00:00",
+                "estimated": "2024-09-12T07:50:00+00:00",
+                "actual": "2024-09-12T07:40:00+00:00",
+                "estimated_runway": "2024-09-12T07:40:00+00:00",
+                "actual_runway": "2024-09-12T07:40:00+00:00"
+            },
+            "airline": {
+                "name": "Finnair",
+                "iata": "AY",
+                "icao": "FIN"
+            },
+            "flight": {
+                "number": "5578",
+                "iata": "AY5578",
+                "icao": "FIN5578",
+                "codeshared": {
+                    "airline_name": "iberia",
+                    "airline_iata": "ib",
+                    "airline_icao": "ibe",
+                    "flight_number": "8853",
+                    "flight_iata": "ib8853",
+                    "flight_icao": "ibe8853"
+                }
+            },
+            "aircraft": null,
+            "live": null
+        },
+        {
+            "flight_date": "2024-09-12",
+            "flight_status": "landed",
+            "departure": {
+                "airport": "Pamplona",
+                "timezone": "Europe/Madrid",
+                "iata": "PNA",
+                "icao": "LEPP",
+                "terminal": "T1",
+                "gate": "2",
+                "delay": 5,
+                "scheduled": "2024-09-12T09:30:00+00:00",
+                "estimated": "2024-09-12T09:30:00+00:00",
+                "actual": "2024-09-12T09:35:00+00:00",
+                "estimated_runway": "2024-09-12T09:35:00+00:00",
+                "actual_runway": "2024-09-12T09:35:00+00:00"
+            },
+            "arrival": {
+                "airport": "Barajas",
+                "timezone": "Europe/Madrid",
+                "iata": "MAD",
+                "icao": "LEMD",
+                "terminal": "4",
+                "gate": null,
+                "baggage": "19",
+                "delay": null,
+                "scheduled": "2024-09-12T10:40:00+00:00",
+                "estimated": "2024-09-12T10:40:00+00:00",
+                "actual": "2024-09-12T10:12:00+00:00",
+                "estimated_runway": "2024-09-12T10:12:00+00:00",
+                "actual_runway": "2024-09-12T10:12:00+00:00"
+            },
+            "airline": {
+                "name": "SA AVIANCA",
+                "iata": "AV",
+                "icao": "AVA"
+            },
+            "flight": {
+                "number": "6118",
+                "iata": "AV6118",
+                "icao": "AVA6118",
+                "codeshared": {
+                    "airline_name": "iberia",
+                    "airline_iata": "ib",
+                    "airline_icao": "ibe",
+                    "flight_number": "8845",
+                    "flight_iata": "ib8845",
+                    "flight_icao": "ibe8845"
+                }
+            },
+            "aircraft": null,
+            "live": null
+        },
+        {
+            "flight_date": "2024-09-12",
+            "flight_status": "landed",
+            "departure": {
+                "airport": "Pamplona",
+                "timezone": "Europe/Madrid",
+                "iata": "PNA",
+                "icao": "LEPP",
+                "terminal": "T1",
+                "gate": "2",
+                "delay": 5,
+                "scheduled": "2024-09-12T21:55:00+00:00",
+                "estimated": "2024-09-12T21:55:00+00:00",
+                "actual": "2024-09-12T21:59:00+00:00",
+                "estimated_runway": "2024-09-12T21:59:00+00:00",
+                "actual_runway": "2024-09-12T21:59:00+00:00"
+            },
+            "arrival": {
+                "airport": "Barajas",
+                "timezone": "Europe/Madrid",
+                "iata": "MAD",
+                "icao": "LEMD",
+                "terminal": "4",
+                "gate": null,
+                "baggage": "19",
+                "delay": null,
+                "scheduled": "2024-09-12T23:00:00+00:00",
+                "estimated": "2024-09-12T23:00:00+00:00",
+                "actual": "2024-09-12T22:50:00+00:00",
+                "estimated_runway": "2024-09-12T22:50:00+00:00",
+                "actual_runway": "2024-09-12T22:50:00+00:00"
+            },
+            "airline": {
+                "name": "SA AVIANCA",
+                "iata": "AV",
+                "icao": "AVA"
+            },
+            "flight": {
+                "number": "6045",
+                "iata": "AV6045",
+                "icao": "AVA6045",
+                "codeshared": {
+                    "airline_name": "iberia",
+                    "airline_iata": "ib",
+                    "airline_icao": "ibe",
+                    "flight_number": "8851",
+                    "flight_iata": "ib8851",
+                    "flight_icao": "ibe8851"
+                }
+            },
+            "aircraft": null,
+            "live": null
+        },
+        {
+            "flight_date": "2024-09-12",
+            "flight_status": "landed",
+            "departure": {
+                "airport": "Pamplona",
+                "timezone": "Europe/Madrid",
+                "iata": "PNA",
+                "icao": "LEPP",
+                "terminal": "T1",
+                "gate": "2",
+                "delay": 19,
+                "scheduled": "2024-09-12T13:55:00+00:00",
+                "estimated": "2024-09-12T13:55:00+00:00",
+                "actual": "2024-09-12T14:13:00+00:00",
+                "estimated_runway": "2024-09-12T14:13:00+00:00",
+                "actual_runway": "2024-09-12T14:13:00+00:00"
+            },
+            "arrival": {
+                "airport": "Barajas",
+                "timezone": "Europe/Madrid",
+                "iata": "MAD",
+                "icao": "LEMD",
+                "terminal": "4",
+                "gate": null,
+                "baggage": "19",
+                "delay": null,
+                "scheduled": "2024-09-12T15:00:00+00:00",
+                "estimated": "2024-09-12T15:00:00+00:00",
+                "actual": "2024-09-12T14:56:00+00:00",
+                "estimated_runway": "2024-09-12T14:56:00+00:00",
+                "actual_runway": "2024-09-12T14:56:00+00:00"
+            },
+            "airline": {
+                "name": "SA AVIANCA",
+                "iata": "AV",
+                "icao": "AVA"
+            },
+            "flight": {
+                "number": "6021",
+                "iata": "AV6021",
+                "icao": "AVA6021",
+                "codeshared": {
+                    "airline_name": "iberia",
+                    "airline_iata": "ib",
+                    "airline_icao": "ibe",
+                    "flight_number": "8847",
+                    "flight_iata": "ib8847",
+                    "flight_icao": "ibe8847"
+                }
+            },
+            "aircraft": null,
+            "live": null
+        },
+        {
+            "flight_date": "2024-09-12",
+            "flight_status": "landed",
+            "departure": {
+                "airport": "Pamplona",
+                "timezone": "Europe/Madrid",
+                "iata": "PNA",
+                "icao": "LEPP",
+                "terminal": "T1",
+                "gate": "2",
+                "delay": 19,
+                "scheduled": "2024-09-12T06:45:00+00:00",
+                "estimated": "2024-09-12T06:45:00+00:00",
+                "actual": "2024-09-12T07:04:00+00:00",
+                "estimated_runway": "2024-09-12T07:04:00+00:00",
+                "actual_runway": "2024-09-12T07:04:00+00:00"
+            },
+            "arrival": {
+                "airport": "Barajas",
+                "timezone": "Europe/Madrid",
+                "iata": "MAD",
+                "icao": "LEMD",
+                "terminal": "4",
+                "gate": null,
+                "baggage": "19",
+                "delay": null,
+                "scheduled": "2024-09-12T07:50:00+00:00",
+                "estimated": "2024-09-12T07:50:00+00:00",
+                "actual": "2024-09-12T07:40:00+00:00",
+                "estimated_runway": "2024-09-12T07:40:00+00:00",
+                "actual_runway": "2024-09-12T07:40:00+00:00"
+            },
+            "airline": {
+                "name": "SA AVIANCA",
+                "iata": "AV",
+                "icao": "AVA"
+            },
+            "flight": {
+                "number": "2563",
+                "iata": "AV2563",
+                "icao": "AVA2563",
+                "codeshared": {
+                    "airline_name": "iberia",
+                    "airline_iata": "ib",
+                    "airline_icao": "ibe",
+                    "flight_number": "8853",
+                    "flight_iata": "ib8853",
+                    "flight_icao": "ibe8853"
+                }
+            },
+            "aircraft": null,
+            "live": null
+        },
+        {
+            "flight_date": "2024-09-12",
+            "flight_status": "landed",
+            "departure": {
+                "airport": "Pamplona",
+                "timezone": "Europe/Madrid",
+                "iata": "PNA",
+                "icao": "LEPP",
+                "terminal": "T1",
+                "gate": "2",
+                "delay": 19,
+                "scheduled": "2024-09-12T06:45:00+00:00",
+                "estimated": "2024-09-12T06:45:00+00:00",
+                "actual": "2024-09-12T07:04:00+00:00",
+                "estimated_runway": "2024-09-12T07:04:00+00:00",
+                "actual_runway": "2024-09-12T07:04:00+00:00"
+            },
+            "arrival": {
+                "airport": "Barajas",
+                "timezone": "Europe/Madrid",
+                "iata": "MAD",
+                "icao": "LEMD",
+                "terminal": "4",
+                "gate": null,
+                "baggage": "19",
+                "delay": null,
+                "scheduled": "2024-09-12T07:50:00+00:00",
+                "estimated": "2024-09-12T07:50:00+00:00",
+                "actual": "2024-09-12T07:40:00+00:00",
+                "estimated_runway": "2024-09-12T07:40:00+00:00",
+                "actual_runway": "2024-09-12T07:40:00+00:00"
+            },
+            "airline": {
+                "name": "Royal Air Maroc",
+                "iata": "AT",
+                "icao": "RAM"
+            },
+            "flight": {
+                "number": "5394",
+                "iata": "AT5394",
+                "icao": "RAM5394",
+                "codeshared": {
+                    "airline_name": "iberia",
+                    "airline_iata": "ib",
+                    "airline_icao": "ibe",
+                    "flight_number": "8853",
+                    "flight_iata": "ib8853",
+                    "flight_icao": "ibe8853"
+                }
+            },
+            "aircraft": null,
+            "live": null
+        },
+        {
+            "flight_date": "2024-09-12",
+            "flight_status": "landed",
+            "departure": {
+                "airport": "Pamplona",
+                "timezone": "Europe/Madrid",
+                "iata": "PNA",
+                "icao": "LEPP",
+                "terminal": "T1",
+                "gate": "2",
+                "delay": 19,
+                "scheduled": "2024-09-12T13:55:00+00:00",
+                "estimated": "2024-09-12T13:55:00+00:00",
+                "actual": "2024-09-12T14:13:00+00:00",
+                "estimated_runway": "2024-09-12T14:13:00+00:00",
+                "actual_runway": "2024-09-12T14:13:00+00:00"
+            },
+            "arrival": {
+                "airport": "Barajas",
+                "timezone": "Europe/Madrid",
+                "iata": "MAD",
+                "icao": "LEMD",
+                "terminal": "4",
+                "gate": null,
+                "baggage": "19",
+                "delay": null,
+                "scheduled": "2024-09-12T15:00:00+00:00",
+                "estimated": "2024-09-12T15:00:00+00:00",
+                "actual": "2024-09-12T14:56:00+00:00",
+                "estimated_runway": "2024-09-12T14:56:00+00:00",
+                "actual_runway": "2024-09-12T14:56:00+00:00"
+            },
+            "airline": {
+                "name": "Royal Air Maroc",
+                "iata": "AT",
+                "icao": "RAM"
+            },
+            "flight": {
+                "number": "5391",
+                "iata": "AT5391",
+                "icao": "RAM5391",
+                "codeshared": {
+                    "airline_name": "iberia",
+                    "airline_iata": "ib",
+                    "airline_icao": "ibe",
+                    "flight_number": "8847",
+                    "flight_iata": "ib8847",
+                    "flight_icao": "ibe8847"
+                }
+            },
+            "aircraft": null,
+            "live": null
+        },
+        {
+            "flight_date": "2024-09-12",
+            "flight_status": "landed",
+            "departure": {
+                "airport": "Pamplona",
+                "timezone": "Europe/Madrid",
+                "iata": "PNA",
+                "icao": "LEPP",
+                "terminal": "T1",
+                "gate": "2",
+                "delay": 5,
+                "scheduled": "2024-09-12T09:30:00+00:00",
+                "estimated": "2024-09-12T09:30:00+00:00",
+                "actual": "2024-09-12T09:35:00+00:00",
+                "estimated_runway": "2024-09-12T09:35:00+00:00",
+                "actual_runway": "2024-09-12T09:35:00+00:00"
+            },
+            "arrival": {
+                "airport": "Barajas",
+                "timezone": "Europe/Madrid",
+                "iata": "MAD",
+                "icao": "LEMD",
+                "terminal": "4",
+                "gate": null,
+                "baggage": "19",
+                "delay": null,
+                "scheduled": "2024-09-12T10:40:00+00:00",
+                "estimated": "2024-09-12T10:40:00+00:00",
+                "actual": "2024-09-12T10:12:00+00:00",
+                "estimated_runway": "2024-09-12T10:12:00+00:00",
+                "actual_runway": "2024-09-12T10:12:00+00:00"
+            },
+            "airline": {
+                "name": "Royal Air Maroc",
+                "iata": "AT",
+                "icao": "RAM"
+            },
+            "flight": {
+                "number": "5390",
+                "iata": "AT5390",
+                "icao": "RAM5390",
+                "codeshared": {
+                    "airline_name": "iberia",
+                    "airline_iata": "ib",
+                    "airline_icao": "ibe",
+                    "flight_number": "8845",
+                    "flight_iata": "ib8845",
+                    "flight_icao": "ibe8845"
+                }
+            },
+            "aircraft": null,
+            "live": null
+        },
+        {
+            "flight_date": "2024-09-12",
+            "flight_status": "landed",
+            "departure": {
+                "airport": "Pamplona",
+                "timezone": "Europe/Madrid",
+                "iata": "PNA",
+                "icao": "LEPP",
+                "terminal": "T1",
+                "gate": "2",
+                "delay": 5,
+                "scheduled": "2024-09-12T09:30:00+00:00",
+                "estimated": "2024-09-12T09:30:00+00:00",
+                "actual": "2024-09-12T09:35:00+00:00",
+                "estimated_runway": "2024-09-12T09:35:00+00:00",
+                "actual_runway": "2024-09-12T09:35:00+00:00"
+            },
+            "arrival": {
+                "airport": "Barajas",
+                "timezone": "Europe/Madrid",
+                "iata": "MAD",
+                "icao": "LEMD",
+                "terminal": "4",
+                "gate": null,
+                "baggage": "19",
+                "delay": null,
+                "scheduled": "2024-09-12T10:40:00+00:00",
+                "estimated": "2024-09-12T10:40:00+00:00",
+                "actual": "2024-09-12T10:12:00+00:00",
+                "estimated_runway": "2024-09-12T10:12:00+00:00",
+                "actual_runway": "2024-09-12T10:12:00+00:00"
+            },
+            "airline": {
+                "name": "American Airlines",
+                "iata": "AA",
+                "icao": "AAL"
+            },
+            "flight": {
+                "number": "8826",
+                "iata": "AA8826",
+                "icao": "AAL8826",
+                "codeshared": {
+                    "airline_name": "iberia",
+                    "airline_iata": "ib",
+                    "airline_icao": "ibe",
+                    "flight_number": "8845",
+                    "flight_iata": "ib8845",
+                    "flight_icao": "ibe8845"
+                }
+            },
+            "aircraft": null,
+            "live": null
+        },
+        {
+            "flight_date": "2024-09-12",
+            "flight_status": "landed",
+            "departure": {
+                "airport": "Pamplona",
+                "timezone": "Europe/Madrid",
+                "iata": "PNA",
+                "icao": "LEPP",
+                "terminal": "T1",
+                "gate": "2",
+                "delay": 19,
+                "scheduled": "2024-09-12T06:45:00+00:00",
+                "estimated": "2024-09-12T06:45:00+00:00",
+                "actual": "2024-09-12T07:04:00+00:00",
+                "estimated_runway": "2024-09-12T07:04:00+00:00",
+                "actual_runway": "2024-09-12T07:04:00+00:00"
+            },
+            "arrival": {
+                "airport": "Barajas",
+                "timezone": "Europe/Madrid",
+                "iata": "MAD",
+                "icao": "LEMD",
+                "terminal": "4",
+                "gate": null,
+                "baggage": "19",
+                "delay": null,
+                "scheduled": "2024-09-12T07:50:00+00:00",
+                "estimated": "2024-09-12T07:50:00+00:00",
+                "actual": "2024-09-12T07:40:00+00:00",
+                "estimated_runway": "2024-09-12T07:40:00+00:00",
+                "actual_runway": "2024-09-12T07:40:00+00:00"
+            },
+            "airline": {
+                "name": "American Airlines",
+                "iata": "AA",
+                "icao": "AAL"
+            },
+            "flight": {
+                "number": "8582",
+                "iata": "AA8582",
+                "icao": "AAL8582",
+                "codeshared": {
+                    "airline_name": "iberia",
+                    "airline_iata": "ib",
+                    "airline_icao": "ibe",
+                    "flight_number": "8853",
+                    "flight_iata": "ib8853",
+                    "flight_icao": "ibe8853"
+                }
+            },
+            "aircraft": null,
+            "live": null
+        }
+    ]
+}
