@@ -16,7 +16,6 @@ A Discord bot that provides real-time flight arrival and departure information f
 1. Clone the repository:
    ```bash
    git clone https://github.com/DanteSc03/DiscordFlightBot.git
-   cd your-repo-name
 
 2. Install dependencies:
     ```bash
