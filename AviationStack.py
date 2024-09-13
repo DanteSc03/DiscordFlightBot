@@ -48,6 +48,7 @@ if dep_api_response.status_code == 200 and arr_api_response.status_code == 200:
                 scheduled_departure_time = flight_info.get('departure', {}).get('scheduled', 'N/A')
                 scheduled_arrival_time = flight_info.get('arrival', {}).get('scheduled', 'N/A')
                 flight_number = flight_info.get('flight', {}).get('iata', 'N/A')
+                aircraft = flight_info.get('aircraft', {}).get('iata', 'N/A')
 
                 #Time Processing
                 scheduled_arrival_time = datetime.fromisoformat(scheduled_arrival_time)
@@ -63,6 +64,7 @@ if dep_api_response.status_code == 200 and arr_api_response.status_code == 200:
                 print(f"Airline: {flight_airline}")
                 print(f"Arrival Airport: {arrival_airport} ({arrival_iata})")
                 print(f"Scheduled arrival time: {scheduled_arrival_time}")
+                print(f"Aircraft: {aircraft}")
                 print('-' * 40) 
             
     if 'data' in arr_api_response_json and len(arr_api_response_json['data']) > 0:
@@ -85,6 +87,7 @@ if dep_api_response.status_code == 200 and arr_api_response.status_code == 200:
                     scheduled_departure_time = flight_info.get('departure', {}).get('scheduled', 'N/A')
                     scheduled_arrival_time = flight_info.get('arrival', {}).get('scheduled', 'N/A')
                     flight_number = flight_info.get('flight', {}).get('iata', 'N/A')
+                    aircraft = flight_info.get('aircraft', {}).get('iata', 'N/A')
 
                     #Time Processing
                     scheduled_arrival_time = datetime.fromisoformat(scheduled_arrival_time)
@@ -100,6 +103,7 @@ if dep_api_response.status_code == 200 and arr_api_response.status_code == 200:
                     print(f"Flight Status: {flight_status}")
                     print(f"Arrival Time: {scheduled_arrival_time}")
                     print(f"Airline: {flight_airline}")
+                    print(f"Aircraft: {aircraft}")
                     print('-' * 40) 
                 
 
