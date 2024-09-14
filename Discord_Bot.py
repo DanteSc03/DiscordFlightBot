@@ -70,16 +70,14 @@ class Client(discord.Client):
                             scheduled_arrival_time = scheduled_arrival_time.strftime('%H:%M')
                             scheduled_departure_time = scheduled_departure_time.strftime('%H:%M')
 
-                            await message.channel.send(
-                                f"Departure from {departure_airport} ({departure_iata}) for today:\n"
-                                f"Airline: {flight_airline}\n"
-                                f"Flight Number: {flight_number}\n"
-                                f"Departure Time: {scheduled_departure_time}\n"
-                                f"Flight Status: {flight_status}\n"
-                                f"Scheduled Arrival Time: {scheduled_arrival_time}\n"
-                                f"Arrival Airport: {arrival_airport} ({arrival_iata})\n"
-                                + '-' * 40
-                                )
+                            await message.channel.send(f"Departure from {departure_airport} ({departure_iata}) for today:")
+                            await message.channel.send(f"Airline: {flight_airline}")
+                            await message.channel.send(f"Flight Number: {flight_number}")
+                            await message.channel.send(f"Departure Time: {scheduled_departure_time}")
+                            await message.channel.send(f"Flight Status: {flight_status}")
+                            await message.channel.send(f"Scheduled arrival time: {scheduled_arrival_time}")
+                            await message.channel.send(f"Arrival Airport: {arrival_airport} ({arrival_iata})")
+                            await message.channel.send('-' * 40) 
 
                 # Handling Arrivals and extracting necessary data
                 if 'data' in arr_api_response_json and len(arr_api_response_json['data']) > 0:
@@ -109,16 +107,14 @@ class Client(discord.Client):
                                 scheduled_arrival_time = scheduled_arrival_time.strftime('%H:%M')
                                 scheduled_departure_time = scheduled_departure_time.strftime('%H:%M')
 
-                                await message.channel.send(
-                                    f"Arrival to {arrival_airport} ({arrival_iata}) for today:\n"
-                                    f"Airline: {flight_airline}\n"
-                                    f"Flight Number: {flight_number}\n"
-                                    f"Scheduled Departure Time: {scheduled_departure_time}\n"
-                                    f"Departure Airport: {departure_airport} ({departure_iata})\n"
-                                    f"Flight Status: {flight_status}\n"
-                                    f"Arrival Time: {scheduled_arrival_time}\n"
-                                    + '-' * 40
-                                    )
+                                await message.channel.send(f"Arrival to {arrival_airport} ({arrival_iata}) for today:")
+                                await message.channel.send(f"Airline: {flight_airline}")
+                                await message.channel.send(f"Flight Number: {flight_number}")
+                                await message.channel.send(f"Scheduled departure time: {scheduled_departure_time}")
+                                await message.channel.send(f"Departure Airport: {departure_airport} ({departure_iata})")
+                                await message.channel.send(f"Flight Status: {flight_status}")
+                                await message.channel.send(f"Arrival Time: {scheduled_arrival_time}")
+                                await message.channel.send('-' * 40) 
 
                 else:
                     print("No flight data available.")
