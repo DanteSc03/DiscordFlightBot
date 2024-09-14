@@ -10,6 +10,9 @@ from dotenv import load_dotenv
 load_dotenv()
 
 class Bot(commands.Bot):
+    def __init__(self, *args, **kwargs):
+        super().__init__(*args, **kwargs)
+
     async def on_ready(self):
         print(f'We have logged in as {self.user}!')
 
@@ -17,7 +20,8 @@ class Bot(commands.Bot):
 intents = discord.Intents.default()
 intents.message_content = True
 
-bot = Bot(intents=intents)
+bot = Bot(intents=intents,
+          command_prefix='!')
 
 @bot.command()
 async def flight_data(ctx, flight_code):
